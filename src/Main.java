@@ -32,8 +32,8 @@ public class Main {
         album1.addToPlaylistFromAlbum("Dua",playlist1);
         album2.addToPlaylistFromAlbum("Jeena Jeena",playlist1);
         album1.addToPlaylistFromAlbum("Gerua",playlist1);
-        album2.addToPlaylistFromAlbum("Tu Janena",playlist1);
-        album1.addToPlaylistFromAlbum("Deva Deva",playlist1);
+        album1.addToPlaylistFromAlbum(5,playlist1);
+        album2.addToPlaylistFromAlbum(4,playlist1);
 
         play(playlist1);
     }

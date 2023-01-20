@@ -72,16 +72,17 @@ public class Album {
         }
     }
 
-    //same function diffrent parameter
-//    public void addToPlaylistFromAlbum(int trackNo, LinkedList<Song>playlist){
-//        int index=trackNo-1;
-//        if(index>=0 && index<songs.size()){
-//            playlist.add(songs.getIndex(index));
-//            System.out.println("Song has been added to playlist");
-//        }
-//        else{
-//            System.out.println("Invalid track number");
-//        }
-//    }
+//    same function diffrent parameter
+    public void addToPlaylistFromAlbum(int trackNo, LinkedList<Song> playlist){
+        int index = trackNo-1;
+        if(index>=0 && index<songs.size()){
+            playlist.add(songs.get(index));
+            System.out.println("Song has been added to your playlist");
+        }
+        else{
+            System.out.println("Invalid track number");
+        }
+        return;
+    }
 
 }
